@@ -2,8 +2,8 @@
 
 int main(void) {
 	// your code goes here
-	int num;
-scanf("%d",&num);
+	long long int num;
+scanf("%lld",&num);
 if(num<=0)
 printf("invalid");
 else if(num%2==0)
